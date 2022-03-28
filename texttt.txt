@@ -1,0 +1,196 @@
+db.users.insertMany([{
+    name: "Jo",
+    email: "Jo@gmail.com",
+    age: 27,
+    relationship: {
+        name:"Anna",
+        age:20,
+    },
+    photos: ["1.jpg", "2.jpg"],
+    birthday: Date()
+},
+{
+    name: "Black",
+    email: "Black@gmail.com",
+    age: 20, 
+    relationship: {
+        name:"Julia",
+        age:25
+    },
+    photos: ["1.jpg", "2.jpg"],
+    birthday: Date()
+},
+{
+    name: "Brown",
+    email: "Brown@gmail.com",
+    age: 35, 
+    relationship: {
+        name:"Julietta",
+        age:30
+    },
+    photos: ["1.jpg", "2.jpg"],
+    birthday: Date()
+},
+{
+    name: "Green",
+    email: "Green@gmail.com",
+    age: 41,
+    relationship: {
+        name:"EVA",
+        age:28
+    },
+    photos: ["1.jpg", "2.jpg"],
+    birthday: Date()
+},
+{
+    name: "Kai",
+    email: "Kai@gmail.com",
+    age: 37, 
+    relationship: {
+        name:"Monica",
+        age:30
+    },
+    photos: ["1.jpg", "2.jpg"],
+    birthday: Date()
+}
+])
+
+
+
+db.users.insertMany([
+    {
+        name:"Jo",
+        surname: "Black",
+        email: "Jo@gmail.com",
+        age: 20,
+        salary: 100
+    },
+     {
+        name:"Black",
+        surname: "Jo",
+        email: "Black@gmail.com",
+        age: 25,
+        salary: 150
+    },
+         {
+        name:"Brown",
+        surname: "David",
+        email: "Brown@gmail.com",
+        age: 27,
+        salary: 190
+    },
+    {
+        name:"David",
+        surname: "Brown",
+        email: "David@gmail.com",
+        age: 30,
+        salary: 200
+    },
+    {
+        name:"Kai",
+        surname: "Sigmund",
+        email: "Kai@gmail.com",
+        age: 35,
+        salary: 200
+    },
+    {
+        name:"Sigmund",
+        surname: "Kai",
+        email: "Kai@gmail.com",
+        age: 40,
+        salary: 280
+    },
+      {
+        name:"Wells",
+        surname: "Brooke",
+        email: "Wells@gmail.com",
+        age: 45,
+        salary: 300
+    },
+    {
+        name:"Brooke",
+        surname: "Wells",
+        email: "Brooke@gmail.com",
+        age: 47,
+        salary: 300
+    },
+      {
+        name:"Sara",
+        surname: "Sigmundsdottir",
+        email: "Sara@gmail.com",
+        age: 50,
+        salary: 320
+    },
+    {
+        name:"Olaf",
+        surname: "Olafson",
+        email: "Olaf@gmail.com",
+        age: 51,
+        salary: 350
+    },
+      {
+        name:"Olaf",
+        surname: "Ragnar",
+        email: "Ragnar@gmail.com",
+        age: 55,
+        salary: 400
+    }
+])
+
+
+
+
+
+db.users.insertMany([
+    {
+        name:"BBBB",
+        surname: "BBBB",
+        email: "BBBB@gmail.com",
+        age: 20,
+        salary: 800
+    },
+     {
+        name:"DDDD",
+        surname: "DDDD",
+        email: "DDDD@gmail.com",
+        age: 25,
+        salary: 150
+    },
+       {
+        name:"GGGG",
+        surname: "GGGG",
+        email: "GGGG@gmail.com",
+        age: 30,
+        salary: 500
+    },
+       {
+        name:"AAAA",
+        surname: "AAAA",
+        email: "AAAA@gmail.com",
+        age: 25,
+        salary: 600
+    },
+       {
+        name:"CCCC",
+        surname: "CCCC",
+        email: "CCCC@gmail.com",
+        age: 40,
+        salary: 500
+    }
+  
+])
+
+
+db.users.insert({name:"XXXX", surname:"XXXX", email:"XXXX@gmail.com", age:100,salary:1000, like: 22})
+
+db.users.update({
+    name:"XXXX"
+},
+{name:007,
+ surname:007,
+ birthdate: Date(),
+ status: "active
+},
+{}
+
+)
